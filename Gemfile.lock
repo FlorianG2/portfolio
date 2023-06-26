@@ -196,6 +196,8 @@ GEM
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
+    typedjs-rails (1.0.4)
+      railties (>= 3.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     web-console (4.2.0)
@@ -232,6 +234,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
+  typedjs-rails (~> 1.0, >= 1.0.3)
   tzinfo-data
   web-console
   webdrivers

@@ -1,0 +1,45 @@
+.bg-gray {
+  background-color: #1D1E22;
+}
+
+.home-card {
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  margin-left:auto;
+  margin-right:auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 30px 30px black;
+}
+
+.typed {
+  color: white;
+  font-family: 'Monaco';
+  font-size: 44px;
+}
+
+.discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.discover-btn {
+  padding: 12px;
+  border: solid 1px white;
+  background-color: #1D1E22;
+  text-decoration: none;
+  color: white;
+  font-family: 'Monaco';
+  font-size: 34px;
+  border-radius: 20px;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    border: solid 1px black;
+  }
+}
