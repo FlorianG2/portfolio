@@ -1,0 +1,54 @@
+.img-container {
+  width: 35%;
+  margin-left: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.companies-container {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  max-height: 70vh;
+  overflow: hidden;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.company-card {
+  background-color: #1D1E22;
+  margin-top: 20px;
+  border-radius: 5px;
+  max-height: 60%;
+  min-height: 10%;
+  overflow: scroll;
+}
+
+.company-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background-color: #1D1E22;
+  padding: 10px;
+}
+
+.first-card {
+  margin-top: 30px;
+}
+
+.details-card {
+  background-color: #1D1E22;
+  padding-top: 10px;
+}
+
+.time-location {
+  text-align: right;
+  padding: 10px;
+}
