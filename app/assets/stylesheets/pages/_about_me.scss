@@ -17,7 +17,14 @@
 }
 
 .title {
+  display: flex;
+  justify-content: space-between;
   margin-top: 30px;
+
+  img {
+    width: 40px;
+    height: auto;
+  }
 }
 
 .company-card {
@@ -51,4 +58,40 @@
 .time-location {
   text-align: right;
   padding: 10px;
+}
+
+.grid-skills {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+
+  p {
+    margin: 0 auto;
+    padding: 5px 15px 5px 15px;
+    border: solid 1px white;
+    border-radius: 15px;
+    background-color: #1D1E22;
+  }
+}
+
+.skill-details {
+  text-align: center;
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1D1E22;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.ranking {
+  color: white;
 }

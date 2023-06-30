@@ -2,6 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="about"
 export default class extends Controller {
+  static targets = ["professional"]
   connect() {
   }
 
@@ -11,5 +12,10 @@ export default class extends Controller {
     const next = card.nextElementSibling
     console.log(next);
     next.classList.toggle("d-none")
+  }
+
+  next() {
+    this.professionalTarget.classList.toggle("d-none")
+    this.professionalTarget.nextElementSibling.classList.toggle("d-none")
   }
 }

@@ -12,3 +12,6 @@ application.register("hello", HelloController)
 
 import HomeController from "./home_controller"
 application.register("home", HomeController)
+
+import ScrollProgressController from "./scroll_progress_controller"
+application.register("scroll-progress", ScrollProgressController)

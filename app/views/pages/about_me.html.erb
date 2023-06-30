@@ -1,39 +1,11 @@
 <div class="container" data-controller="about">
-  <div class="title">
-    <h2>PROFESSIONAL EXPERIENCES</h2>
+  <div class="">
+    <%= render "shared/professional_experiences" %>
   </div>
-  <div class="d-flex">
-    <div class="companies-container">
-      <div class="company-card first-card" >
-        <div class="company-card-title" data-action="click->about#dropdown">
-          <h4>Transport Planner</h4>
-          <p>Essity</p>
-        </div>
-        <div class="details-card">
-          <%= render "shared/essity" %>
-        </div>
-      </div>
-      <div class="company-card">
-        <div class="company-card-title" data-action="click->about#dropdown">
-          <h4>Customer Onboarding Specialist</h4>
-          <p>Amenitiz</p>
-        </div>
-        <div class="d-none details-card">
-          <%= render "shared/amenitiz" %>
-        </div>
-      </div>
-      <div class="company-card">
-        <div class="company-card-title" data-action="click->about#dropdown">
-          <h4>Technical commercial Engineer</h4>
-          <p>Mingret</p>
-        </div>
-        <div class="d-none details-card">
-          <%= render "shared/mingret" %>
-        </div>
-      </div>
-    </div>
-    <div class="img-container">
-      <%= image_tag "portrait.png" %>
-    </div>
+  <div class="">
+    <%= render "shared/education" %>
+  </div>
+  <div class="">
+    <%= render "shared/skills" %>
   </div>
 </div>
