@@ -9,4 +9,8 @@ export default class extends Controller {
   popup() {
     this.infoTarget.classList.toggle("d-none")
   }
+
+  close() {
+    this.infoTarget.classList.add("d-none")
+  }
 }
