@@ -1,11 +1,16 @@
 .img-container {
   width: 35%;
   margin-left: 10px;
-
+  position: fixed;
+  right: 2%;
   img {
     width: 100%;
     height: auto;
   }
+}
+
+#fixed {
+  position: sticky;
 }
 
 .companies-container {

@@ -2,6 +2,9 @@
   width: 100vw;
   height: 70px;
   background-color: #1D1E22;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
 .link {
