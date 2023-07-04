@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="container-project">
+    <div class="wasteless-img">
+      <%# <iframe src="https://www.waste-less.me/users/sign_in" frameborder="0"></iframe> %>
+      <%= link_to "https://www.waste-less.me/users/sign_in", target: :_blank do %>
+        <%= image_tag "wasteless.jpeg" %>
+      <% end %>
+    </div>
+    <div class="project-card">
+      <div class="title-project">
+        <h2>WASTELESS</h2>
+      </div>
+      <div class="description-project">
+        <%= render "shared/wasteless" %>
+      </div>
+    </div>
+  </div>
+</div>

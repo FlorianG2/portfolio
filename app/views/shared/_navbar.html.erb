@@ -8,8 +8,12 @@
     </div>
   </div>
   <div class="btn-navbar">
-    <div class="link">
-      <%= link_to "Contact me", root_path, id:"btn-contact" %>
+    <div class="link" data-action="click->contact#popup">
+      <p id="btn-contact">Contact me</p>
     </div>
   </div>
+</div>
+<div class="popup d-none" data-contact-target="info">
+  <p>email: guerinflorian02@gmail.com</p>
+  <p>linkedin: </p>
 </div>

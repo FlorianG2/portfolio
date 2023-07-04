@@ -1,0 +1,41 @@
+.container-project {
+  display: flex;
+  height: 88vh;
+}
+
+.wasteless-img {
+  margin-top: 20px;
+  // width: 100%;
+
+  img {
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
+
+.project-card {
+  flex-grow: 1;
+}
+
+.title-project {
+  margin-top: 20px;
+  margin-left: 10px;
+  height: auto;
+
+  h2 {
+    text-align: center;
+    background-color: #1D1E22;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
+
+.description-project {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #1D1E22;
+  border-radius: 5px;
+  padding: 5px;
+  height: 85%;
+}
