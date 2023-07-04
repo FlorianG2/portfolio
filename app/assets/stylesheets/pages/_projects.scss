@@ -5,7 +5,12 @@
 
 .wasteless-img {
   margin-top: 20px;
-  // width: 100%;
+
+  iframe {
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+  }
 
   img {
     width: auto;
@@ -36,6 +41,9 @@
   margin-left: 10px;
   background-color: #1D1E22;
   border-radius: 5px;
-  padding: 5px;
-  height: 85%;
+  padding: 25px;
+  min-height: 87.5%;
+  max-height: 87.5%;
+  text-align: center;
+  overflow: scroll;
 }
