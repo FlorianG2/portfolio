@@ -5,10 +5,19 @@
   <div class="companies-container">
     <div class="company-card first-card" >
       <div class="company-card-title" data-action="click->about#dropdown">
+        <h4>Teacher Assistant</h4>
+        <p>Le Wagon</p>
+      </div>
+      <div class="details-card">
+        <%= render "shared/le_wagon" %>
+      </div>
+    </div>
+    <div class="company-card">
+      <div class="company-card-title" data-action="click->about#dropdown">
         <h4>Transport Planner</h4>
         <p>Essity</p>
       </div>
-      <div class="details-card">
+      <div class="d-none details-card">
         <%= render "shared/essity" %>
       </div>
     </div>
