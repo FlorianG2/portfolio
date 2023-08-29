@@ -12,10 +12,9 @@
   </head>
 
   <body data-controller="contact">
-   <% unless params[:controller] == "pages" && params[:action] == "home" %>
+   <%# <% unless params[:controller] == "pages" && params[:action] == "home" %>
       <%= render "shared/navbar" %>
-    <% end %>
-    <div data-controller="scroll-progress" class="h-2 bg-indigo-400 fixed top-0"></div>
+    <%# end %>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,37 @@
+<div data-controller="home">
+  <div class="bg-gray home-card">
+    <div>
+      <span class="typed" id="welcome"></span>
+    </div>
+    <div>
+      <span class="typed" id="name"></span>
+    </div>
+    <div>
+      <span class="typed" id="developer"></span>
+    </div>
+  </div>
+  <div class="discover d-none" data-home-target="discover">
+    <%= link_to 'Enter', about_me_path, class:"discover-btn" %>
+  </div>
+</div>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#welcome', {
+      strings: ['Welcome to my portfolio'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#name', {
+      strings: ['My name is Florian'],
+      typeSpeed: 50,
+      startDelay: 1600,
+    });
+    var typed = new Typed('#developer', {
+      strings: ['Full Stack Developer'],
+      typeSpeed: 50,
+      startDelay: 3000,
+    });
+  </script>

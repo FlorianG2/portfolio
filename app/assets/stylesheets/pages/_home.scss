@@ -43,3 +43,18 @@
     border: solid 1px black;
   }
 }
+
+.portrait {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90vh;
+
+  img {
+    width: auto;
+    height: 80vh;
+    border: 2px solid #FF6E4F;
+    border-radius: 15px;
+  }
+}
